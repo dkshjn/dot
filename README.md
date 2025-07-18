@@ -129,4 +129,17 @@ Level Two
 • Learned practical CI/CD tooling (OpenShift, Harness)
 • Enhanced backend testing and coverage through SonarQube and unit tests
 • Focused on engineering for long-term reusability, not just a one-off script
+
+
+Level One
+Designed and implemented a modular backend pipeline for automated dependency analysis
+
+Level Two
+Core Components:
+
+• Dependency analysis using Maven CLI (pom.xml, dependency:tree, analyze)
+• Rule-based classification into 30+ functional categories
+• Project-level and repository-level metric aggregation
+• Relational database to store enriched results for reuse
+• Bitbucket integration with auth, smart refresh, and force-refresh logic
 ```
