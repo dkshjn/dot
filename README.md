@@ -75,6 +75,28 @@ Refresh Support
 • Smart caching with force-refresh option (within 10 minutes)
 • Prevents redundant analysis and minimizes DB churn
 
+Level Two
+Efficiency
+• Reduces manual effort in identifying and managing dependencies
+• Smart caching avoids redundant analysis within a 10-minute window
+• Supports reuse by loading existing results from the database when possible
+
+Level Two
+Visibility
+• Provides clear, categorized insights into library usage across all repositories
+• Tracks size and usage frequency to highlight bloat or redundancy
+
+Level Two
+Scalability & Integration
+• Works across teams and any number of Maven-based repositories
+• Integrated with Bitbucket and deployable via OpenShift and Harness
+• Refresh and force-refresh options give users full control
+
+Level Two
+Extensibility
+• Modular rule-based classifier can be extended
+• Database-backed design supports future enhancements like Gradle, ML classification, method-level usage
+
 🟦 Slide 5: Demo
 Level One
 Demonstrating key capabilities of the tool
